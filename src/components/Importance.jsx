@@ -6,7 +6,7 @@ const Importance = () => {
             <div className='flex w-[90%]'>
                 {/* Left */}
                 <div className='bg-[#f9f9f9] dark:bg-gray-900 w-1/2 flex justify-center items-center'>
-                    <img src="src/assets/girl.png" alt="Dumbbells" />
+                    <img src="src/assets/girl.png" alt="Dumbbells" className='h-[80%]'/>
                 </div>
                 {/* Right */}
                 <div className='bg-[#f9f9f9] dark:bg-gray-900 w-1/2 h-[calc(100vh-88px)] flex justify-center items-center'>

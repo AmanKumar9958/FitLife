@@ -3,6 +3,10 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Equipments from './components/Equipments'
 import Importance from './components/Importance'
+import Yoga from './components/Yoga'
+import Testimonial from './components/Testimonial'
+import Discount from './components/Discount'
+import Footer from './components/Footer'
 
 const App = () => {
   
@@ -14,7 +18,11 @@ const App = () => {
       <Hero />
       <Equipments />
       <Importance />
-      <Hero />
+      {/* Cards */}
+      <Yoga />
+      <Testimonial />
+      <Discount />
+      <Footer />
     </div>
   )
 }
